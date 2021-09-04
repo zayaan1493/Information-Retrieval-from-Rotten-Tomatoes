@@ -49,11 +49,11 @@ Given a movie and user input for a cast member, after printing all of its cast m
 Then the code waits for the user to select from any of the above options and show the result as per 
 selection and for the ‘His/Her other movies’ further the code asks for a year and use it as a filter to show all the movies on or after that year.
 
-4. A python code is designed to extract the above fields. The program shows all the possible query fields a user can ask for(from the above list items). And according to the user selection, it shows the corresponding field for the particular movie or move to the movie or cast according to the selection of the user ("you might also like" or "Cast and Crew") and again does the same work for a movie or cast chosen by the user as mentioned above.
+3. A python code is designed to extract the above fields. The program shows all the possible query fields a user can ask for(from the above list items). And according to the user selection, it shows the corresponding field for the particular movie or move to the movie or cast according to the selection of the user ("you might also like" or "Cast and Crew") and again does the same work for a movie or cast chosen by the user as mentioned above.
 
-5. The program also saves the result in a log file as per the following format.
+4. The program also saves the result in a log file as per the following format.
 <Genre> <Movie_name> <Field_requested> <Field_value>
 For a field with multiple values, it should make an entry for each value.
 
-6. Note that in this project I haven't  use the “Beautiful Soup” python package. The entire code is based on the PLY package of python.
+5. Note that in this project I haven't  use the “Beautiful Soup” python package. The entire code is based on the PLY package of python.
 
