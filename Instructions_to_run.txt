@@ -1,0 +1,32 @@
+Name : Md Laadla
+Roll No. : 20CS60R20
+Department : Computer Science and Engineering (MTech, IIT Kharagpur)
+Mail Id : mailzayaan1493.ml@kgpian.iitkgp.ac.in
+Date : 03-04-2021
+
+INSTRUCTIONS TO RUN THE CODE:
+
+Run command : make
+
+	** There is a make file which runs the entire code **
+	** Python 3 is used to do all the task **
+
+IMPORTANT ASSUMPTIONS, STRUCTURE OF THE WORK AND ERROR HANDLING:
+
+	1. Both the tasks viz. task1 and task2 is performed as a single work but the entire functionalities of both the tasks are covered.
+
+	2. The grammar for crawling the "cast.html" is written in a different file to improve readability of the code.
+	
+	3. "movie.html" and "cast.html" are updated accrodingly whenever needed and during the entire run of the program at maximum only one "movie.html" and "cast.html" can be present, as we do not need to preserve past informations.
+
+	4. Whenever a user is prompted to give an input, he/she needs to give an integer input from the list printed in the terminal above while running the code. The user just need to input a number associated with each movie to input a movie name or a number associated to each genre to input a genre or a number associated to each query that the user wants to find. Invalid input from the user is handled and in such cases the user is prompted to re-type the input.
+
+	5. The "the_task.py" is the main file which runs and imports the "movie_extractor.py" and "cast_crawler.py". The main work of the "the_task.py" file is to crawl the "movie.html" file and handle user queries. It also uses the data structures of the "cast_crawler.py" in order to handle the queries relating to the casts.
+
+	6. The "movie_extractor.py" asks the user to choose a genre from a list of genre provided and then to choose a movie from the listed top 100 movies corresponding to the previously chosen genre. This code finally saves the chosen movie to "movie.html" file and further work is done in the "the_task.py".
+
+	7. The "cast_crawler.py" file handles the crawling of the "cast.html" which has been downloaded by the "movie_extractor.py" file and data structures defined in this file relating to the contents of the casts is used by "movie_extractor.py".
+
+	
+
+	
